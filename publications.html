@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Publications | Dhrubajyoti Ghosh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400;500&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">D. Ghosh</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="publications.html" class="active">Publications</a></li>
+    <li><a href="teaching.html">Teaching</a></li>
+    <li><a href="lab.html">Ghosh Lab</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="page-hero" data-bg="PUB">
+  <div class="page-hero-tag">Research Output</div>
+  <h1 class="page-hero-title"><em>Publications</em></h1>
+  <p class="page-hero-sub">Peer-reviewed articles, accepted papers, and submitted manuscripts across statistical methodology and data science.</p>
+</div>
+
+<!-- STATS BAR -->
+<div style="background:white;padding:3rem 6rem;display:grid;grid-template-columns:repeat(5,1fr);gap:2rem;border-bottom:1px solid var(--rule);" class="fade-in">
+  <div style="text-align:center;"><div style="font-family:'Syne',sans-serif;font-size:2.2rem;font-weight:800;color:var(--accent)">20+</div><div style="font-family:'DM Mono',monospace;font-size:0.65rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);margin-top:0.3rem">Total Papers</div></div>
+  <div style="text-align:center;"><div style="font-family:'Syne',sans-serif;font-size:2.2rem;font-weight:800;color:var(--accent)">2</div><div style="font-family:'DM Mono',monospace;font-size:0.65rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);margin-top:0.3rem">Time Series</div></div>
+  <div style="text-align:center;"><div style="font-family:'Syne',sans-serif;font-size:2.2rem;font-weight:800;color:var(--accent)">6</div><div style="font-family:'DM Mono',monospace;font-size:0.65rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);margin-top:0.3rem">Longitudinal</div></div>
+  <div style="text-align:center;"><div style="font-family:'Syne',sans-serif;font-size:2.2rem;font-weight:800;color:var(--accent)">5</div><div style="font-family:'DM Mono',monospace;font-size:0.65rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);margin-top:0.3rem">Data Science</div></div>
+  <div style="text-align:center;"><div style="font-family:'Syne',sans-serif;font-size:2.2rem;font-weight:800;color:var(--accent)">6</div><div style="font-family:'DM Mono',monospace;font-size:0.65rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);margin-top:0.3rem">Consulting</div></div>
+</div>
+
+<!-- PUBLICATIONS -->
+<section style="padding:5rem 6rem;background:var(--paper);">
+  <div style="margin-bottom:1.5rem;">
+    <p style="font-family:'DM Mono',monospace;font-size:0.75rem;color:var(--muted);">Full list on <a href="https://scholar.google.com/citations?user=AAVtmXkAAAAJ&hl=en" target="_blank" style="color:var(--accent);">Google Scholar</a>. &nbsp;* denotes student mentee.</p>
+  </div>
+
+  <div class="pub-tabs">
+    <button class="pub-tab active" onclick="showTab('ts')">Time Series</button>
+    <button class="pub-tab" onclick="showTab('long')">Longitudinal</button>
+    <button class="pub-tab" onclick="showTab('ds')">Data Science</button>
+    <button class="pub-tab" onclick="showTab('consult')">Consulting</button>
+    <button class="pub-tab" onclick="showTab('student')">Student Papers</button>
+    <button class="pub-tab" onclick="showTab('working')">Working Papers</button>
+  </div>
+
+  <!-- TIME SERIES -->
+  <div id="tab-ts" class="pub-list active fade-in">
+    <div class="pub-item">
+      <div class="pub-num">T1</div>
+      <div>
+        <div class="pub-title">Polyspectral Mean Estimation of General Nonlinear Processes</div>
+        <div class="pub-authors">Ghosh, D., McElroy, T. &amp; Lahiri, S.</div>
+        <div class="pub-venue">arXiv:2410.15187 (2024)</div>
+        <span class="pub-badge gold">Accepted · Bernoulli</span>
+      </div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-num">T2</div>
+      <div>
+        <div class="pub-title">Quadratic Prediction of Time Series via Auto-Cumulants</div>
+        <div class="pub-authors">McElroy, T.S., Ghosh, D. &amp; Lahiri, S.</div>
+        <div class="pub-venue">Sankhya A 86, 431–463 (2024)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LONGITUDINAL -->
+  <div id="tab-long" class="pub-list fade-in">
+    <div class="pub-item">
+      <div class="pub-num">L1</div>
+      <div>
+        <div class="pub-title">Efficacy Analysis in Clinical Trials: A Comprehensive Review of Statistical and Machine Learning Approaches</div>
+        <div class="pub-authors">Ghosh, D. &amp; Pal, S.</div>
+        <div class="pub-venue">arXiv:2511.04903 (2026)</div>
+        <span class="pub-badge gold">Accepted · New England Journal of Statistics and Data Science</span>
+      </div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-num">L2</div>
+      <div>
+        <div class="pub-title">A Non-Parametric U-Statistic Testing Approach for Multi-Arm Clinical Trials with Multivariate Longitudinal Data</div>
+        <div class="pub-authors">Ghosh, D. &amp; Luo, S.</div>
+        <div class="pub-venue">Journal of Multivariate Analysis, 105447 (2025)</div>
+      </div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-num">L3</div>
+      <div>
+        <div class="pub-title">A Comprehensive Goodness-of-Fit Test for Covariance Structures in Multivariate Longitudinal Data</div>
+        <div class="pub-authors">Ghosh, D., Song, Z., Xiao, L. &amp; Luo, S.</div>
+        <div class="pub-venue">Submitted to Biometrics (2025)</div>
+        <span class="pub-badge">Under Review</span>
+      </div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-num">L4</div>
+      <div>
+        <div class="pub-title">Power and Sample Size Calculation for Multivariate Longitudinal Trials Using the Longitudinal Rank Sum Test</div>
+        <div class="pub-authors">Ghosh, D., Xu, X., Luo, S. et al.</div>
+        <div class="pub-venue">Statistics in Medicine 44, e70261 (2025)</div>
+      </div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-num">L5</div>
+      <div>
+        <div class="pub-title">Ensemble Survival Analysis for Preclinical Cognitive Decline Prediction in Alzheimer's Disease Using Longitudinal Biomarkers</div>
+        <div class="pub-authors">Ghosh, D., Pal, S., Lutz, M., Luo, S. &amp; ADNI</div>
+        <div class="pub-venue">Journal of Alzheimer's Disease (2025)</div>
+      </div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-num">L6</div>
+      <div>
+        <div class="pub-title">A Novel Longitudinal Rank-Sum Test for Multiple Primary Endpoints in Clinical Trials: Applications to Neurodegenerative Disorders</div>
+        <div class="pub-authors">Xu, X., Ghosh, D., Luo, S. et al.</div>
+        <div class="pub-venue">Statistics in Biopharmaceutical Research (2025)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DATA SCIENCE -->
+  <div id="tab-ds" class="pub-list fade-in">
+    <div class="pub-item">
+      <div class="pub-num">D1</div>
+      <div>
+        <div class="pub-title">Machine Learning Based Bot Detection on X With Temporal and Semantic Feature Integration</div>
+        <div class="pub-authors">Ghosh, D., Boettcher, W., Johnston, R. &amp; Lahiri, S.</div>
+        <div class="pub-venue">IEEE Transactions on Computational Social Systems (2026)</div>
+      </div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-num">D2</div>
+      <div>
+        <div class="pub-title">Assessing Air Quality Extremes: A Comparative Extreme Value Analysis of Metropolitan Cities Across India and the World</div>
+        <div class="pub-authors">Ghosh, D.</div>
+        <div class="pub-venue">Environmental Monitoring and Assessment 197, 276 (2025)</div>
+      </div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-num">D3</div>
+      <div>
+        <div class="pub-title">Polyspectral Mean Based Time Series Clustering of Indian Stock Market</div>
+        <div class="pub-authors">Ghosh, D.</div>
+        <div class="pub-venue">Discover Data 3, 10 (2025)</div>
+      </div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-num">D4</div>
+      <div>
+        <div class="pub-title">THANOS: A Predictive Model of Electoral Campaigns Using Twitter Data and Opinion Polls</div>
+        <div class="pub-authors">Ghosh, D., Boettcher, W.A., Johnston, R. &amp; Lahiri, S.</div>
+        <div class="pub-venue">Data Science in Science 4, 2484180 (2025)</div>
+      </div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-num">D5</div>
+      <div>
+        <div class="pub-title">Penalized FCI for Causal Structure Learning in a Sparse DAG for Biomarker Discovery in Parkinson's Disease</div>
+        <div class="pub-authors">Pal, S., Ghosh, D. &amp; Yang, S.</div>
+        <div class="pub-venue">arXiv:2507.00173 (2025)</div>
+        <span class="pub-badge gold">Invited Major Revision · Annals of Applied Statistics</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONSULTING -->
+  <div id="tab-consult" class="pub-list fade-in">
+    <div class="pub-item">
+      <div class="pub-num">V1</div>
+      <div>
+        <div class="pub-title">Demographic Distribution Matching between Real World and Virtual Phantom Population</div>
+        <div class="pub-authors">Ghosh, D., Tushar, F.I., Dahal, L. et al.</div>
+        <div class="pub-venue">arXiv:2507.11511 (2026)</div>
+        <span class="pub-badge gold">Accepted · Medical Physics</span>
+      </div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-num">V2</div>
+      <div>
+        <div class="pub-title">Genetic and Biomarker Disclosure Process in a Memory and Aging Study</div>
+        <div class="pub-authors">Mayan, I., Roth, H., Ghosh, D. et al.</div>
+        <div class="pub-venue">Journal of Alzheimer's Disease (2025)</div>
+      </div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-num">V3</div>
+      <div>
+        <div class="pub-title">XCAT-2.0: A Comprehensive Library of Personalized Digital Twins Derived from CT Scans</div>
+        <div class="pub-authors">Dahal, L., Ghojoghnejad, M., Ghosh, D. et al.</div>
+        <div class="pub-venue">arXiv:2405.11133 (2024)</div>
+      </div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-num">V4</div>
+      <div>
+        <div class="pub-title">A Systematic Assessment and Optimization of Photon-Counting CT for Lung Density Quantifications</div>
+        <div class="pub-authors">Sotoudeh-Paima, S., Segars, W.P., Ghosh, D. et al.</div>
+        <div class="pub-venue">Medical Physics 51, 2893–2904 (2024)</div>
+      </div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-num">V5</div>
+      <div>
+        <div class="pub-title">Virtual NLST: Towards Replicating National Lung Screening Trial</div>
+        <div class="pub-authors">Tushar, F.I., Vancoillie, L., Ghosh, D. et al.</div>
+        <div class="pub-venue">Medical Imaging 2024: Physics of Medical Imaging (2024)</div>
+      </div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-num">V6</div>
+      <div>
+        <div class="pub-title">Virtual Lung Screening Trial (VLST): An In Silico Replica of the National Lung Screening Trial for Lung Cancer Detection</div>
+        <div class="pub-authors">Tushar, F.I., Vancoillie, L., Ghosh, D., Luo, S. et al.</div>
+        <div class="pub-venue">arXiv:2404.11221 (2024)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STUDENT -->
+  <div id="tab-student" class="pub-list fade-in">
+    <div class="pub-item">
+      <div class="pub-num">S1</div>
+      <div>
+        <div class="pub-title">Derivations for the Cumulative Standardized Binomial EWMA (CSB-EWMA) Control Chart</div>
+        <div class="pub-authors">*Muritala, F., Brown, A., Ghosh, D. &amp; Ni, S.</div>
+        <div class="pub-venue">arXiv:2601.09968 (2026)</div>
+      </div>
+    </div>
+    <div class="pub-item">
+      <div class="pub-num">S2</div>
+      <div>
+        <div class="pub-title">Integrating Causal Inference with Graph Neural Networks for Alzheimer's Disease Analysis</div>
+        <div class="pub-authors">*Peddi, P.K. &amp; Ghosh, D.</div>
+        <div class="pub-venue">arXiv:2511.14922 (2025)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- WORKING PAPERS -->
+  <div id="tab-working" class="pub-list fade-in">
+    <div class="wp-item"><div class="wp-num">W1</div><div><div class="wp-title">Brain ROI Identification using Cox Fused Graph Constrained LASSO</div><div class="wp-authors">Ghosal, R., Ghosh, D. &amp; Roy, A.</div><span class="wp-status">Working Paper</span></div></div>
+    <div class="wp-item"><div class="wp-num">W2</div><div><div class="wp-title">Segmentation Anomaly Detection using Distribution-based Holistic Unsupervised Approach</div><div class="wp-authors">Ghosh, D., Dahal, L., Nejad, M.G., Samei, E., Luo, S. &amp; Lo, J.</div><span class="wp-status">Working Paper</span></div></div>
+    <div class="wp-item"><div class="wp-num">W3</div><div><div class="wp-title">Rate of Convergence and Optimal Choice of m in the m-out-of-n Bootstrap for Sample Extremes</div><div class="wp-authors">Ghosh, D. &amp; Lahiri, S.</div><span class="wp-status">Working Paper</span></div></div>
+    <div class="wp-item"><div class="wp-num">W4</div><div><div class="wp-title">An RKHS-Based Approach to Efficacy Testing in Longitudinal Clinical Trials</div><div class="wp-authors">Ghosh, D. &amp; Luo, S.</div><span class="wp-status">Working Paper</span></div></div>
+    <div class="wp-item"><div class="wp-num">W5</div><div><div class="wp-title">A Holistic Assessment of Psychological and Cognitive Health in Aging Using Long Life Family Study Data</div><div class="wp-authors">Ghosh, D., Luo, S., Arbeev, K., Akushevich, I. &amp; Yashin, A.</div><span class="wp-status">Working Paper</span></div></div>
+    <div class="wp-item"><div class="wp-num">W6</div><div><div class="wp-title">Network-Aware High Dimensional Instrumental Variable Regression for Causal Brain ROI Discovery</div><div class="wp-authors">Pal, S. &amp; Ghosh, D.</div><span class="wp-status">Working Paper</span></div></div>
+  </div>
+</section>
+
+<!-- SOFTWARE -->
+<section style="padding:5rem 6rem;background:white;">
+  <div class="section-label">Software</div>
+  <h2 class="section-title fade-in">R Packages &amp; Apps</h2>
+  <div class="divider"></div>
+  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:2rem;" class="fade-in">
+    <div class="sw-card">
+      <div class="sw-type">R Package</div>
+      <div class="sw-name">Polyspectra</div>
+      <div class="sw-desc">Polyspectra, polyspectral means, and asymptotic variance for nonlinear time series.</div>
+    </div>
+    <div class="sw-card">
+      <div class="sw-type">R Package</div>
+      <div class="sw-name">QuadraticPredictionR</div>
+      <div class="sw-desc">Quadratic forecasting of time series, implementing methods from Sankhya A (2024).</div>
+    </div>
+    <div class="sw-card">
+      <div class="sw-type">Shiny App</div>
+      <div class="sw-name">Economy Dashboard</div>
+      <div class="sw-desc">Interactive dashboard for global economic conditions and import/export trade data.</div>
+    </div>
+  </div>
+</section>
+
+<!-- MEDIA -->
+<section style="padding:4rem 6rem;background:var(--paper);">
+  <div class="section-label">Media</div>
+  <h2 class="section-title fade-in">Selected Coverage</h2>
+  <div class="divider"></div>
+  <div class="fade-in" style="border-left:3px solid var(--gold);padding:1.5rem 2rem;background:white;max-width:600px;">
+    <div style="font-family:'DM Mono',monospace;font-size:0.68rem;color:var(--gold);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:0.5rem;">2022 · The Ampersand</div>
+    <div style="font-size:1.1rem;font-weight:600;color:var(--accent);">"Are bots winning the war to control social media?"</div>
+    <div style="font-size:0.9rem;color:var(--muted);margin-top:0.3rem;font-style:italic;">Feature coverage of research on Twitter bot detection.</div>
+  </div>
+</section>
+
+<footer>
+  &copy; 2026 Dhrubajyoti Ghosh · Kennesaw State University
+  <a href="https://scholar.google.com/citations?user=AAVtmXkAAAAJ&hl=en" target="_blank">Scholar</a>
+  <a href="mailto:dghosh3@kennesaw.edu">Email</a>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
